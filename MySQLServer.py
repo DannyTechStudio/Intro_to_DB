@@ -11,7 +11,7 @@ try:
     
     mycursor.execute(f"CREATE DATABASE IF NOT EXISTS alx_book_store")
 
-    print(f"Database '{database_name}' created successfully!")
+    print(f"Database 'alx_book_store' created successfully!")
     
     mycursor.close()
     alxbookstore_db.close()
