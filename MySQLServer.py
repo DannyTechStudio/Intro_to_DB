@@ -9,9 +9,9 @@ try:
     
     mycursor = alxbookstore_db.cursor()
     
-    mycursor.execute(f"CREATE DATABASE IF NOT EXISTS alx_book_store")
+    mycursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
 
-    print(f"Database 'alx_book_store' created successfully!")
+    print("Database 'alx_book_store' created successfully!")
     
     mycursor.close()
     alxbookstore_db.close()
